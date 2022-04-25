@@ -1,36 +1,9 @@
-/*=======================================================================	
--------------------------------------------------------------------------
-	CSS Structure
--------------------------------------------------------------------------
-	
-	01- General CSS
-	02- Preloader
-	03- Front Section
-	04- About Section
-	05- Resume Section
-	06- Services Section
-	07- Blog Section
-	08- Portfolio Section
-	09- Contact Section
-	10- Work Page
-	11- Single Post Page
-	12- Responsive CSS
-	
-	*Colors are in separate files.
-	
-=======================================================================*/
-
-
-
-
-
-
 /*Importing Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,600,300|Playfair+Display:700italic,400italic|Crimson+Text:400italic,600italic|Open+Sans:400,700);
 
-/*=======================================================================
-	General CSS
-=======================================================================*/
+#body{
+	scroll-behavior: smooth;
+}
 *{
 	margin:0;
 	padding:0;
@@ -861,7 +834,7 @@ body.section-show .transition-mask:before{
 }
 .testimonial > .author > h4{
 	margin:0;
-	text-transform:uppercase;
+	text-transform:capitalize;
 	letter-spacing:2px;
 	font-size:14px;
 }
